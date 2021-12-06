@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.footer-section {
+  background: -webkit-linear-gradient(90deg, #f3851e, #ff3729);
+	background: linear-gradient(90deg, #f3851e, #ff3729);   
+  padding: 6vh 10%;
+}
+
+.footer-logo {
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+
+.company-name {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  margin: 1vh auto;
+  text-align: center;
+}
+
+.footer-link {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #fff;
+  padding: 2px 0;
+}
+
+/* .footer-link:hover {
+  color: #fff;
+} */
+
+.uk-nav > li > a {
+  padding: 0;
+}
+
+.links-section {
+  text-align: center;
+}
+
+.footer-contact {
+  color: #fff;
+}
+
+.uk-icon-button {
+  color: #f3851e;
+}
+
+.contact-div {
+  margin-bottom: 5px;
+}
+
+.contact-info {
+  color: #fff;
+}
+
+.contact-info:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 960px) {
+  .footer-grid {
+    text-align: center;
+  }
+}

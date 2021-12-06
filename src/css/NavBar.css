@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.navbar-cont {
+  background-color: transparent;
+  padding: 0 10%;
+  width: 80vw;
+  position: fixed;
+  z-index: 999999999;  
+}
+
+.navbar-cont.active {
+  background: -webkit-linear-gradient(90deg, #f3851e, #ff3729);
+	background: linear-gradient(90deg, #f3851e, #ff3729);
+}
+
+.navbar {
+  justify-content: flex-end;
+  z-index: 99999;
+}
+
+.logo-image-box {
+  position: absolute;
+  left: 0;
+}
+
+
+
+.logo-image-box h6.company-name {
+  color: #fff;
+  margin: auto;
+  margin-left: 1vw;
+  margin-top: auto;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.logo-image-box > a:hover {
+  text-decoration: none;
+}
+
+.logo-image-box img.logo-img {
+  width: 50px;
+}
+
+.search-box-div {
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  width: 40%;
+}
+
+.search-box::placeholder {
+  text-align: center;
+}
+
+.nav-dp {
+  width: 30px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.phone-nav {
+  display: none;
+}
+
+.nav-item {
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: #fff !important;
+
+}
+
+@media screen and (max-width: 800px) {
+  .phone-nav {
+    background: -webkit-linear-gradient(90deg,#f3851e, #ff3729);
+    background: linear-gradient(90deg, #f3851e, #ff3729);
+    margin-bottom: 0;
+    display: flex;
+    position: fixed;
+    z-index: 9999999;
+    width: 100vw;
+  }
+
+  .phone-nav .nav-item {
+    color: #d75725 !important;
+  }
+
+  .phone-nav .phone-nav-logo-box img.logo-img {
+    width: 50px;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .uk-navbar-toggle {
+    color: #fff;
+  }
+}

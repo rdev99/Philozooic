@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.login-form,
+.login-s-form {
+  background: -webkit-linear-gradient(90deg, #f3851e, #ff3729);
+	background: linear-gradient(90deg, #f3851e, #ff3729);   
+  text-align: center;
+  min-height: 100vh;
+  padding: 20vh 10% 10vh 10%;
+}
+
+
+.login-text {
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10vh;
+  font-weight: 800;
+  padding-top: 10vh;
+  color: #CE422F;
+}
+
+.login-button {
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 8px;
+  background-color: white;
+  color: #d75725;
+  border: 2px solid #d75725;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 30px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #d75725;
+  color: white;
+}
+
+form{
+  padding: 20px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+ transition: 0.3s all;
+  background-color: white;
+}
+
+form:hover{
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+  transition: ease-in-out;
+  transition: 0.3s all;
+}
+
+.uk-margin{
+ padding-top: 20px;
+}
+
+.uk-input{
+  font-family: 'Montserrat', sans-serif;
+  width: 80%;
+  border: 0;
+  border-bottom: 3px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  padding: 20px;
+  background: transparent;
+  transform: 5s all;
+  z-index: 999999999;
+  text-align: center;
+}
+
+.form_label {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  transform: translate(0vh, -4.2rem);
+  color: #999;
+  transform: translate(0vh, -2rem);
+  transition: all 0.2s ease-out;
+}
+
+.uk-input:focus + .form_label {
+  font-weight: 700;
+  color: #d75725;
+  transform: translate(0vh, -4.2rem);
+}
+
+.uk-input:focus {
+  border-width: 3px;
+  border-image: linear-gradient(90deg, #f3851e, #ff3729);   
+  transform: 5s all;
+  border-image-slice: 1;
+}
+
+
+.uk-input:not(:placeholder-shown) + .form_label  {
+  font-weight: 700;
+  color: #d74f25;
+  transform: translate(0vh, -4rem);
+}
+
+.signup-mssg {
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+
+.error-mssg {
+  color: #fb5a5a;
+  background: #ffffff;
+  padding: 20px;
+  margin: 0 30%;
+}
+
+a.signup-link {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  background-color: #005c3c;
+  padding: 10px 20px;
+  font-size: small;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+a.signup-link:hover {
+  background-color: #023121;;
+}
+
+.radio-section {
+  justify-content: center;
+}
+
+h4.radio-select {
+  color: rgb(0, 0, 0);
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  font-weight: 1000;
+}
+
+.radio-section > label {
+  color: rgb(0, 0, 0);
+}
+
+.image-section {
+  background-color: #29bb89;
+  text-align: center;
+  min-height: 55vh;
+  padding: 25vh 5% 10vh 5%;
+}
+
+.uk-border-circle {
+  cursor: pointer;
+  width: 12%;
+}
+
+img.photo-selected {
+  border: 4px solid red;
+}
+
+.phone-signup-section {
+  display: none;
+}
+
+.type-image {
+  cursor: pointer;
+}
+
+.type-image.selected {
+  cursor: pointer;
+  border: 2px solid red;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .login-s-form {
+    text-align: center;
+    margin: 50px;
+    min-height: 55vh;
+    padding: 10vh 10% 0 10%;
+  }
+
+}

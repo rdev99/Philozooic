@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.hero-section {
+  background: -webkit-linear-gradient(90deg, #f3851e, #ff3729);
+	background: linear-gradient(90deg, #f3851e, #ff3729);   
+  padding: 10vh;
+  padding-top: 20vh;
+  padding-bottom: 15vh;
+  min-height: 30vh;
+  margin-bottom: 2.5vh;
+}
+
+.hero-heading-text {
+  color: #fff;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  margin: auto;
+}
+
+.section {
+  padding: 6vh 10%;
+  margin: auto;
+}
+
+.section .button-box {
+  text-align: center;
+}
+
+.card-body .section-button {
+  border: none;
+  border-radius: 7px;
+  padding: 10px 20px;
+  background: -webkit-linear-gradient(90deg, #f3851e, #ff3729);
+	background: linear-gradient(90deg, #f3851e, #ff3729);   
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.uk-card-title.name {
+  text-align: center;
+  margin-bottom: auto;
+}
+
+.not-found-message {
+  text-align: center;
+  font-size: x-large;
+}
+
+.charge-box {
+  margin: auto;
+  text-align: center;
+}
+
+.star-section {
+  text-align: center;
+  padding: 10px 0;
+}
+
+small.review-box {
+  text-align: center;
+  display: block;
+  color: #d75725;
+}
+
+p.about-box {
+  font-size: 14px;
+  max-height: 40px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-height: 20vh;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+}
+
+h6.miscellaneous-info {
+  text-align: center;
+  margin: 3px 0;
+  font-size: small;
+}
+
+.uk-label.label {
+  line-height: 2;
+  background: #00000078;
+  text-transform: none;
+}
+
+.collapse-icon {
+  float: right;
+  cursor: pointer;
+  background-color: #CE422F;
+  border-radius: 100px;
+  padding: 1px;
+  color: #fff;
+}
+
+.collapse-icon:hover {
+  background-color: rgb(78, 78, 78);
+}
+
+.location-filter-section {
+  background-color: #fff;
+  padding: 4vh;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.219);
+}
+
+input[type="checkbox"]:checked,
+input[type="radio"]:checked {
+  background-color: #d75725 !important;
+}
+
+input[type="checkbox"]:active,
+input[type="radio"]:active {
+  border: 1px solid #d75725;
+}
+
+img.card-image {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.uk-tab::before {
+  display: none;
+}
+
+legend.tab {
+  padding: 5px 15px 5px 15px;
+  cursor: pointer;
+}
+
+legend.tab.active {
+  background-color: #d75725;
+  border-radius: 5px;
+  color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  .all-page-grid > * {
+    padding-left: 0;
+  }
+
+  .pet-card {
+    margin-left: 0;
+  }
+
+  .all-page-card-section {
+    padding-left: 30px;
+  }
+}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.section {
+  padding: 6vh 10%;
+  margin: auto;
+}
+
+.section-text {
+  text-align: center;
+  margin: auto;
+}
+
+.section-text h1.heading-text {
+  font-weight: 600;
+}
+
+.section-button {
+  border: none;
+  border-radius: 7px;
+  padding: 10px 20px;
+  background-color: #d75725;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.uk-position-small {
+  cursor: pointer;
+}
+
+.heading-text.about {
+  padding-top: 10vh;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 8vh;
+}
+
+.quote-heading-text {
+  margin: auto;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0 20%;
+  font-weight: 600;
+}
+
+.quote-card {
+  background-color: #d75725;
+  color: #fff;
+  padding: 3vh 20vw;
+}
+
+.quote-card > blockquote {
+  font-size: large;
+}
+
+.quote-card > p {
+  font-size: 0.85rem;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.nav-arrow {
+  color: #fff;
+  background-color: #d75725;
+  padding: auto;
+  border-radius: 100%;
+}
+
+.faq-item {
+  padding-bottom: 1vh;
+  border-bottom: 1px solid #d75725;
+}
+
+.question {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.answer {
+  color: #d75725;
+}

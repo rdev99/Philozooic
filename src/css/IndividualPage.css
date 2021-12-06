@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.hero-section {
+  background: -webkit-linear-gradient(90deg, #f3851e, #ff3729);
+	background: linear-gradient(90deg, #f3851e, #ff3729);   
+  padding: 10vh;
+  min-height: 30vh;
+  margin-bottom: 2.5vh;
+}
+
+.hero-heading-text {
+  color: #fff;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+}
+
+.section {
+  padding: 10vh 10%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+img.profile-pic {
+  width: 640px;
+}
+
+.info-contact {
+  padding: 1.5vh 0;
+}
+
+.info-contact > div > span > a {
+  color: rgb(104, 104, 104);
+}
+
+h1.info-name {
+  margin: auto;
+}
+
+.uk-label.label {
+  line-height: 2;
+  background: #00000078;
+  text-transform: none;
+  margin-left: 5px;
+}
+
+h3.info-charge {
+  margin-top: 10px;
+}
+
+.info-ratings {
+  text-align: left;
+}
+
+.review-star-div-desktop {
+  float: right;
+}
+
+.review-star-div-mobile {
+  display: none;
+}
+
+h3.reviewer-name {
+  margin-top: auto;
+}
+
+.review-body {
+  padding: 15px;
+}
+
+.info-ratings-num {
+  color: #d75725;
+  padding: 7px 0;
+}
+
+.submit-btn-div {
+  padding: 10px 0 0 0;
+  text-align: center;
+}
+
+.submit-btn-div > button {
+  border: none;
+  border-radius: 7px;
+  padding: 10px 20px;
+  background-color: #d75725;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.update-review-btn {
+  border: none;
+  border-radius: 7px;
+  padding: 7px 15px;
+  background-color: #d75725;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.session-err-message {
+  text-align: center;
+  margin: auto;
+  padding: 15px 0;
+}
+
+.edit-close-icon {
+  cursor: pointer;
+}
+
+.delete-icon {
+  float: right;
+  cursor: pointer;
+}
+
+.not-found-message {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.address-title {
+  margin: auto;
+}
+
+h4.user-info-med {
+  margin: 0.75vh 0;
+}
+
+span.user-email {
+  font-weight: 600;
+}
+
+.user-form {
+  padding: 5px 0;
+}
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #d75725;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.choose-img {
+  width: 10%;
+}
+
+.img-grid {
+  padding: 5%;
+}
+
+.uk-icon {
+  cursor: pointer;
+}
+
+.submit-button {
+  background-color: #d75725;
+  padding: 10px 20px;
+  font-family: "Open Sans";
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+}
+
+img.photo-selected {
+  border: 4px solid red;
+}
+
+.uk-tab::before {
+  display: none;
+}
+
+legend.tab {
+  padding: 5px 15px 5px 15px;
+  cursor: pointer;
+}
+
+legend.tab.active {
+  background-color: #d75725;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.uk-radio:checked {
+  background-color: #d75725;
+}
+
+.uk-radio:active {
+  border: 1px solid #999;
+}
+
+.type-page-image {
+  padding: 3vh 0;
+}
+
+.type-image.selected {
+  border: 1.5px solid red;
+}
+
+.pet-welcome-message {
+  text-align: center;
+  font-family: "Coming Soon";
+  font-size: xx-large;
+  font-weight: bold;
+  padding-bottom: 2vh;
+}
+
+img.pet-image {
+  border: 2px solid red !important;
+}
+
+.pet-image-box {
+  margin-bottom: 3vh;
+}
+
+span.contact-span {
+  display: block;
+  margin-bottom: 1vh;
+}
+
+@media screen and (max-width: 1200px) {
+  .individual-grid > * {
+    padding-left: 0;
+  }
+
+  .all-page-card-section {
+    padding-left: 30px;
+  }
+
+  .review-star-div-desktop {
+    display: none;
+  }
+
+  .review-star-div-mobile {
+    text-align: center;
+    display: block;
+  }
+
+  h3.reviewer-name {
+    font-size: large;
+    padding: 0 10px;
+  }
+
+  .info-date {
+    padding: 0 10px;
+  }
+
+  .close {
+    font-size: 20px;
+  }
+
+  .choose-img {
+    width: 20%;
+  }
+}
